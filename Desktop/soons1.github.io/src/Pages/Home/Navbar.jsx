@@ -29,7 +29,8 @@ function Navbar() {
     return (
         <nav className={`navbar ${navActive ? "active" : ""}`}>
             <div>
-                <img src='./img/logo.svg' alt='logoipsum' />
+                <p className="hero--section--description">Soon Wei Soh</p>
+                
             </div>
             <a className={`nav__hamburger ${navActive ? "active" : ""}`} onClick={toggleNav}>
                 <span className="nav__hamburger__line"></span>
@@ -42,10 +43,13 @@ function Navbar() {
                         <Link onClick={closeNav} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="HeroSection" className="navbar--content">Home</Link>
                     </li>
                     <li>
-                        <Link onClick={closeNav} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="AboutMe" className="navbar--content">About Me</Link>
+                        <Link onClick={closeNav} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MySkills" className="navbar--content">Tech Stack</Link>
                     </li>
                     <li>
-                        <Link onClick={closeNav} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">Portfolio</Link>
+                        <Link onClick={closeNav} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MyPortfolio" className="navbar--content">Projects</Link>
+                    </li>
+                    <li>
+                        <Link onClick={closeNav} activeClass="navbar--active--content" spy={true} smooth={true} offset={-70} duration={500} to="MyExperience" className="navbar--content">Experiences</Link>
                     </li>
                 </ul>
             </div>

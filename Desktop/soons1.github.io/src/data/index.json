@@ -2,50 +2,201 @@
     "skills": [
         {
             "id": "1",
-            "src": "./img/product-chain-1.png",
-            "title": "Front-End",
-            "description": "lorem ipsum"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+            "alt": "python3"
         },
         {
             "id": "2",
-            "src": "./img/tag-1.png",
-            "title": "Back-End",
-            "description": "lorem ipsum"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+            "alt": "java"
         },
         {
             "id": "3",
-            "src": "./img/feather-pen-2.png",
-            "title": "UI/UX Design",
-            "description": "lorem ipsum"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+            "alt": "c"
         },
         {
             "id": "4",
-            "src": "./img/feather-pen-1.png",
-            "title": "Webflow Development",
-            "description": "lorem ipsum"
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+            "alt": "postgresql"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/neo4j/neo4j-original.svg",
+            "alt": "neo4j"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
+            "alt": "django"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg",
+            "alt": "flask"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            "alt": "react"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
+            "alt": "material-ui"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+            "alt": "html5"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+            "alt": "css3"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+            "alt": "vscode"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg",
+            "alt": "jira"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+            "alt": "linux"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg",
+            "alt": "bash"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg",
+            "alt": "powershell"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+            "alt": "docker"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vagrant/vagrant-original.svg",
+            "alt": "vagrant"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg",
+            "alt": "ansible"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+            "alt": "aws"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+            "alt": "github"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+            "alt": "github-actions"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+            "alt": "git"
         }
     ],
     "portfolio": [
         {
             "id": "1",
-            "src": "./img/placeholder-image.png",
-            "title": "Ahuse",
-            "description": "lorem ipsum",
-            "link": "View In Github"
+            "src": "./img/tpotportfolio.png",
+            "title": "T-Pot honeypot",
+            "description": "Open-source honeypot hosted on AWS EC2 instance.",
+            "link": "https://github.com/soons1/honeypot-project"
         },
         {
             "id": "2",
             "src": "./img/placeholder-image-1.png",
-            "title": "App Dashboard",
-            "description": "lorem ipsum",
-            "link": "View In Github"
+            "title": "Log Analyser",
+            "description": "Shell script built to extract and analyse logs.",
+            "link": "View On Github"
         },
         {
             "id": "3",
-            "src": "./img/placeholder-image-2.png",
-            "title": "Easy Rent",
-            "description": "lorem ipsum",
-            "link": "View In Github"
+            "src": "./img/linkguardportfolio.png",
+            "title": "LinkGuard",
+            "description": "URL scanner powered by VirusTotal API.",
+            "link": "https://github.com/soons1/Hack-Roll"
+        },
+        {
+            "id": "1",
+            "src": "./img/tpotportfolio.png",
+            "title": "T-Pot honeypot",
+            "description": "Open-source honeypot hosted on AWS EC2 instance.",
+            "link": "https://github.com/soons1/honeypot-project"
+        },
+        {
+            "id": "2",
+            "src": "./img/placeholder-image-1.png",
+            "title": "Log Analyser",
+            "description": "Shell script built to extract and analyse logs.",
+            "link": "View On Github"
+        }
+    ],
+    "experience": [
+        {
+            "id": "1",
+            "role": "DevSecOps Intern",
+            "company": "Partior Pte. Ltd.",
+            "date": "May 2024 - Aug 2024",
+            "description": [
+                "• Developed an end-to-end automated compliance monitoring tool using Drata and Jira APIs with Github Actions",
+                "• Configured the Trivy security scanning tool to be run as a workflow on any code push",
+                "• Constructed a Neo4j knowledge graph consisting of activity-to-control mappings between information security frameworks like SOC2 and COBIT 2019 for the technology risk manager"
+            ]
+        },
+        {
+            "id": "2",
+            "role": "Undergraduate Researcher",
+            "company": "NUS School of Computing",
+            "date": "Feb 2024 - Aug 2024",
+            "description": [
+                "• Utilized Vagrant to manage virtual machines and Ansible playbooks for adversary simulation",
+                "• Configured Linux Auditd and Windows Sysmon services to capture malicious events and behaviours based on APT17",
+                "• Created a log extraction tool for both Linux and Windows machine using Bash and Powershell"
+            ]
+        },
+        {
+            "id": "3",
+            "role": "Teaching Assistant",
+            "company": "NUS School of Computing",
+            "date": "Aug 2023 - May 2024",
+            "description": [
+                "• Delivered lab sessions on object-oriented programming, functional programming and parallel programming in Java to over 60 students",
+                "• Graded lab work and assisted professor in invigilating exams",
+                "• Tutor Feedback of 4.7/5.0, above faculty average of 4.5/5.0"
+            ]
+        },
+        {
+            "id": "4",
+            "role": "Software Engineer Intern",
+            "company": "Imagenz Pte. Ltd.",
+            "date": "May 2023 - Aug 2023",
+            "description": [
+                "• Liaised closely with manager to design and implement a checklist tool built using Python Django",
+                "• Designed a Neo4j database that serves as a knowledge graph for information security standards like ISO 27001 and NIST 800-53 and how it relates to organizational assets",
+                "• Containerized the application using Docker and shipped it for consultant’s use"
+            ]
         }
     ]
 }

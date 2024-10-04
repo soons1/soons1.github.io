@@ -1,24 +1,38 @@
+import { Box, IconButton, Stack, Typography } from "@mui/material"
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+const handleGitHubClick = () => {
+    window.open('https://github.com/soons1/', '_blank');
+};
+
+const handleLinkedInClick = () => {
+    window.open('https://www.linkedin.com/in/soon-wei-soh-8904a219b/', '_blank');
+};
+
 export default function HeroSection() {
     return (
-        <section id="heroSection" className="hero--section">
-            <div className="hero--section--content--box">
-                <div className="hero--section--content">
-                    <p className="section--title">Hi, I'm Soon Wei</p>
-                    <h1 className="hero--section--title">
-                        <span className="hero--section--title--color">Full Stack</span>{" "}
-                        <br />
-                        Developer
-                    </h1>
-                    <p className="hero--section--description">
-                        I design and code beautifully simple things, and I love what I do.
-                        <br /> I am a Full Stack Developer based in Lagos, Nigeria.
-                    </p>
-                </div>
-                <button className="btn btn-primary">Get in touch</button>
-            </div>
-            <div className="hero--section--img">
-                <img src="./img/hero_img.png" alt="Hero Section" />
-            </div>
-        </section>
+        <Stack className="hero--section" sx={{ flexDirection:"column", alignContent:"center", justifyContent:"center" }} spacing={1} id="HeroSection">
+            <Box component="img"
+                sx={{width: 300, borderRadius:"100%"}}
+                alt="Profile Photo"
+                src="./img/profile-photo.JPG"/>
+
+            <Typography>
+                <Typography variant="h4" sx={{ fontWeight: 'bold', fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem' } }}>
+                    Hi, I'm{" "}
+                    <span className="hero--section--title--color">Soon Wei!</span>
+                </Typography>
+            </Typography>
+
+            <Stack sx={{ flexDirection:"row", width:"100%", justifyContent: "center" }}>
+                <IconButton onClick={handleGitHubClick} size="200px">
+                    <GitHubIcon fontSize="large"/>
+                </IconButton>
+                <IconButton onClick={handleLinkedInClick}>
+                    <LinkedInIcon fontSize="large" />
+                </IconButton>
+            </Stack>
+        </Stack>
     )
 }
