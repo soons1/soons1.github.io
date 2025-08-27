@@ -12,11 +12,6 @@
         },
         {
             "id": "3",
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-            "alt": "c"
-        },
-        {
-            "id": "4",
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
             "alt": "postgresql"
         },
@@ -39,11 +34,6 @@
             "id": "1",
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
             "alt": "react"
-        },
-        {
-            "id": "1",
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg",
-            "alt": "material-ui"
         },
         {
             "id": "1",
@@ -92,11 +82,6 @@
         },
         {
             "id": "1",
-            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg",
-            "alt": "ansible"
-        },
-        {
-            "id": "1",
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
             "alt": "aws"
         },
@@ -114,22 +99,32 @@
             "id": "1",
             "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
             "alt": "git"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
+            "alt": "pandas"
+        },
+        {
+            "id": "1",
+            "src": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg",
+            "alt": "numpy"
         }
     ],
     "portfolio": [
         {
             "id": "1",
+            "src": "./img/loganalyser.png",
+            "title": "Log Analyser",
+            "description": "Shell scripts built to extract and analyse logs.",
+            "link": "https://github.com/soons1/automated-forensics-extraction"
+        },
+        {
+            "id": "2",
             "src": "./img/tpotportfolio.png",
             "title": "T-Pot honeypot",
             "description": "Open-source honeypot hosted on AWS EC2 instance.",
             "link": "https://github.com/soons1/honeypot-project"
-        },
-        {
-            "id": "2",
-            "src": "./img/placeholder-image-1.png",
-            "title": "Log Analyser",
-            "description": "Shell script built to extract and analyse logs.",
-            "link": "View On Github"
         },
         {
             "id": "3",
@@ -139,34 +134,55 @@
             "link": "https://github.com/soons1/Hack-Roll"
         },
         {
-            "id": "1",
-            "src": "./img/tpotportfolio.png",
-            "title": "T-Pot honeypot",
-            "description": "Open-source honeypot hosted on AWS EC2 instance.",
-            "link": "https://github.com/soons1/honeypot-project"
+            "id": "4",
+            "src": "./img/ah-boy.png",
+            "title": "Ah Boy!",
+            "description": "Hokkien-based chatbot powered by GPT-3.5.",
+            "link": "https://github.com/soons1/wth-23"
         },
         {
-            "id": "2",
-            "src": "./img/placeholder-image-1.png",
-            "title": "Log Analyser",
-            "description": "Shell script built to extract and analyse logs.",
-            "link": "View On Github"
+            "id": "5",
+            "src": "./img/stretch-relax.png",
+            "title": "1-2-3-4 Stretch Relax",
+            "description": "Workplace productivity tool that reminds users to relax.",
+            "link": "https://github.com/soons1/1-2-3-4-Stretch-Relax"
         }
     ],
     "experience": [
         {
             "id": "1",
-            "role": "DevSecOps Intern",
+            "role": "Strategy and Product Intern",
+            "company": "Jane Street",
+            "date": "May 2025 - Jul 2025",
+            "description": [
+                "• Designed and implemented a margin monitoring and management app to automate a daily operational task, saving the trading desk over 1 hour/day.",
+                "• Built a Streamlit dashboard to visualize operational metrics and reduce manual analysis, resulting in a 30-minute daily time saving for the team.",
+                "• Collaborated with traders, operations, and engineers to deliver solutions used in equities and derivatives workflows."
+            ]
+        },
+        {
+            "id": "2",
+            "role": "Product Intern",
+            "company": "Monee",
+            "date": "Jan 2025 - Apr 2025",
+            "description": [
+                "• Led stakeholder interviews and requirements gathering to deliver a dynamic dashboard that reduced user access review time by 2 hours/reviewer.",
+                "• Streamlined security hardening operations by integrating repetitive compliance checks into the product flow."
+            ]
+        },
+        {
+            "id": "3",
+            "role": "DevSecOps Engineer Intern",
             "company": "Partior Pte. Ltd.",
             "date": "May 2024 - Aug 2024",
             "description": [
-                "• Developed an end-to-end automated compliance monitoring tool using Drata and Jira APIs with Github Actions",
+                "• Developed an automated compliance monitoring tool integrating Drata and Jira via GitHub Actions, eliminating 30+ mins of daily manual work.",
                 "• Configured the Trivy security scanning tool to be run as a workflow on any code push",
                 "• Constructed a Neo4j knowledge graph consisting of activity-to-control mappings between information security frameworks like SOC2 and COBIT 2019 for the technology risk manager"
             ]
         },
         {
-            "id": "2",
+            "id": "4",
             "role": "Undergraduate Researcher",
             "company": "NUS School of Computing",
             "date": "Feb 2024 - Aug 2024",
@@ -177,25 +193,23 @@
             ]
         },
         {
-            "id": "3",
+            "id": "5",
             "role": "Teaching Assistant",
             "company": "NUS School of Computing",
             "date": "Aug 2023 - May 2024",
             "description": [
                 "• Delivered lab sessions on object-oriented programming, functional programming and parallel programming in Java to over 60 students",
-                "• Graded lab work and assisted professor in invigilating exams",
                 "• Tutor Feedback of 4.7/5.0, above faculty average of 4.5/5.0"
             ]
         },
         {
-            "id": "4",
+            "id": "6",
             "role": "Software Engineer Intern",
             "company": "Imagenz Pte. Ltd.",
             "date": "May 2023 - Aug 2023",
             "description": [
                 "• Liaised closely with manager to design and implement a checklist tool built using Python Django",
                 "• Designed a Neo4j database that serves as a knowledge graph for information security standards like ISO 27001 and NIST 800-53 and how it relates to organizational assets",
-                "• Containerized the application using Docker and shipped it for consultant’s use"
             ]
         }
     ]
